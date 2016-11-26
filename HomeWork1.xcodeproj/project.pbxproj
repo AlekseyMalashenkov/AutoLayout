@@ -12,6 +12,8 @@
 		AACFC6F81DEA061800C0FA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACFC6F61DEA061800C0FA08 /* Main.storyboard */; };
 		AACFC6FA1DEA061800C0FA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACFC6F91DEA061800C0FA08 /* Assets.xcassets */; };
 		AACFC6FD1DEA061800C0FA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACFC6FB1DEA061800C0FA08 /* LaunchScreen.storyboard */; };
+		AACFC7051DEA0DE400C0FA08 /* TextAndSqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACFC7041DEA0DE400C0FA08 /* TextAndSqViewController.swift */; };
+		AACFC7071DEA107700C0FA08 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACFC7061DEA107700C0FA08 /* PizzaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AACFC6F91DEA061800C0FA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACFC6FC1DEA061800C0FA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACFC6FE1DEA061800C0FA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACFC7041DEA0DE400C0FA08 /* TextAndSqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAndSqViewController.swift; sourceTree = "<group>"; };
+		AACFC7061DEA107700C0FA08 /* PizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AACFC6F21DEA061800C0FA08 /* AppDelegate.swift */,
 				AACFC6F41DEA061800C0FA08 /* ViewController.swift */,
 				AACFC6F61DEA061800C0FA08 /* Main.storyboard */,
+				AACFC7061DEA107700C0FA08 /* PizzaViewController.swift */,
+				AACFC7041DEA0DE400C0FA08 /* TextAndSqViewController.swift */,
 				AACFC6F91DEA061800C0FA08 /* Assets.xcassets */,
 				AACFC6FB1DEA061800C0FA08 /* LaunchScreen.storyboard */,
 				AACFC6FE1DEA061800C0FA08 /* Info.plist */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACFC6F51DEA061800C0FA08 /* ViewController.swift in Sources */,
+				AACFC7071DEA107700C0FA08 /* PizzaViewController.swift in Sources */,
 				AACFC6F31DEA061800C0FA08 /* AppDelegate.swift in Sources */,
+				AACFC7051DEA0DE400C0FA08 /* TextAndSqViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
